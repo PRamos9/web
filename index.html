@@ -42,6 +42,27 @@
             border-radius: 20px;
             font-size: 0.9rem;
         }
+        .experience-item, .education-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #eee;
+        }
+        .experience-item:last-child, .education-item:last-child {
+            border-bottom: none;
+        }
+        .job-title, .degree-title {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        .company, .institution {
+            color: #3498db;
+            font-weight: 500;
+        }
+        .date {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
     </style>
 </head>
 <body>
@@ -83,6 +104,65 @@
                 <li>Business Intelligence</li>
                 <li>Análisis de tendencias y patrones</li>
             </ul>
+        </section>
+
+        <section class="profile-section">
+            <h2>Experiencia Profesional</h2>
+            
+            <div class="experience-item">
+                <h3 class="job-title">Data Audit</h3>
+                <div class="company">Price Waterhouse Coopers (PwC), Málaga</div>
+                <div class="date">2021</div>
+                <ul>
+                    <li>Análisis exhaustivo de estados financieros e informes</li>
+                    <li>Ejecución de procedimientos de auditoría según estándares establecidos</li>
+                    <li>Identificación y evaluación de riesgos potenciales en procesos financieros</li>
+                    <li>Trabajo efectivo en equipo para lograr objetivos de auditoría</li>
+                    <li>Comunicación clara de hallazgos de auditoría, verbal y escrita</li>
+                    <li>Especialización en Capital Markets and Accounting Advisory Services (CMAAS)</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3 class="job-title">Analista Administrativo</h3>
+                <div class="company">Ayuntamiento de Albolote, Granada</div>
+                <div class="date">2021</div>
+                <p>Administración del Consumidor Municipal y gestión de datos administrativos</p>
+            </div>
+
+            <div class="experience-item">
+                <h3 class="job-title">Asistente de Cuidado Infantil</h3>
+                <div class="company">Generation Education, Glounthaune</div>
+                <div class="date">2021</div>
+                <p>Supervisión y apoyo a niños de 6-10 años en actividades extraescolares, garantizando su seguridad, participación y bienestar.</p>
+            </div>
+        </section>
+
+        <section class="profile-section">
+            <h2>Formación Académica</h2>
+            
+            <div class="education-item">
+                <h3 class="degree-title">Data Scientist Nanodegree Program</h3>
+                <div class="institution">Udacity</div>
+                <div class="date">2025</div>
+                <ul>
+                    <li>Modelado y análisis de datos con Python, Pandas, NumPy y Scikit-Learn</li>
+                    <li>Entrenamiento, evaluación e implementación de modelos de ML</li>
+                    <li>Ingeniería de datos con SQL y ETL</li>
+                    <li>Implementación de modelos en APIs y entornos de producción</li>
+                </ul>
+            </div>
+
+            <div class="education-item">
+                <h3 class="degree-title">Grado en Economía - Programa Bilingüe</h3>
+                <div class="institution">Universidad de Granada</div>
+                <div class="date">2017-2021</div>
+                <ul>
+                    <li>Formación en estadística y análisis de datos</li>
+                    <li>Matemáticas para análisis económico</li>
+                    <li>Programación con C++, Python, SQL, Matlab, Stata</li>
+                </ul>
+            </div>
         </section>
 
         <section class="profile-section">
